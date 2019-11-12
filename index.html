@@ -22,8 +22,8 @@
       </div>
     </nav>
     <div class="hero text-center">
-      <h1>UFO Sightings</h1>
-      <p>The Truth is Out There</p>
+      <h1 style="font-family:'Michroma', sans-serif; text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 75px #618D1B;">UFO Sightings</h1>
+      <p style="color: #618D1B; text-shadow: 1px 1px 2px black, 0 0 25px whitesmoke, 0 0 5px #618D1B; font-size: 50px;">The Truth is Out There</p>UFO Sightings</h1>
     </div>
     <div class="container">
       <div class="row margin-top-50">
@@ -39,9 +39,15 @@
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
+					   <li class="filter list-group-item" style="background-color: black;">
+                        <label for="date">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="la mesa">
+
                     </ul>
                   </div>
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+				  
+				  <button id="reset-btn" type="reset" class="btn btn-default btn-lg btn-block">Reset Table</button>
                 </form>
               </div>
             </div>
